@@ -1,0 +1,14 @@
+C:\Users\i-kitagawa\source\repos\20260817\20260817\bin\Debug\net10.0\20260817.exe
+C:\Users\i-kitagawa\source\repos\20260817\20260817\bin\Debug\net10.0\20260817.deps.json
+C:\Users\i-kitagawa\source\repos\20260817\20260817\bin\Debug\net10.0\20260817.runtimeconfig.json
+C:\Users\i-kitagawa\source\repos\20260817\20260817\bin\Debug\net10.0\20260817.dll
+C:\Users\i-kitagawa\source\repos\20260817\20260817\bin\Debug\net10.0\20260817.pdb
+C:\Users\i-kitagawa\source\repos\20260817\20260817\obj\Debug\net10.0\20260817.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\i-kitagawa\source\repos\20260817\20260817\obj\Debug\net10.0\20260817.AssemblyInfoInputs.cache
+C:\Users\i-kitagawa\source\repos\20260817\20260817\obj\Debug\net10.0\20260817.AssemblyInfo.cs
+C:\Users\i-kitagawa\source\repos\20260817\20260817\obj\Debug\net10.0\20260817.csproj.CoreCompileInputs.cache
+C:\Users\i-kitagawa\source\repos\20260817\20260817\obj\Debug\net10.0\20260817.dll
+C:\Users\i-kitagawa\source\repos\20260817\20260817\obj\Debug\net10.0\refint\20260817.dll
+C:\Users\i-kitagawa\source\repos\20260817\20260817\obj\Debug\net10.0\20260817.pdb
+C:\Users\i-kitagawa\source\repos\20260817\20260817\obj\Debug\net10.0\20260817.genruntimeconfig.cache
+C:\Users\i-kitagawa\source\repos\20260817\20260817\obj\Debug\net10.0\ref\20260817.dll
