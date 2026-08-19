@@ -1,4 +1,5 @@
 ﻿using System.Runtime.InteropServices.Marshalling;
+using System;
 
 namespace _20260817
 {
@@ -146,103 +147,143 @@ namespace _20260817
 
             //}
 
-            int[] scores = new int[10];
-            for (int i = 0; i < scores.Length; i++)
-            {
-                Console.Write($"{i + 1}人目の点数を入力してください: ");
-                scores[i] = int.Parse(Console.ReadLine());
-            }
-
-
-
-
-            //public static int Mondai2_2_3(int x, int y)
+            //int[] scores = new int[10];
+            //for (int i = 0; i < scores.Length; i++)
             //{
-            //    return((x+y)/2);
+            //    Console.Write($"{i + 1}個目の数値" +$"を入力してください: ");
+            //    scores[i] = int.Parse(Console.ReadLine());
             //}
-            //public static int Mondai2_2_4(int x)
-
+            //foreach (int score in scores)
             //{
-            //    return (x * 365);
+            //    Console.WriteLine(score*2);
             //}
 
-            //public static void Mondai2_3_2(int x, int y)
+            //int[] scores = new int[10];
+            //for (int i = 0; i < scores.Length; i++)
             //{
-            //    if (x > y)
-            //    {
-            //        Console.WriteLine(x + "は" + y + "より大きい");
-            //    }
-            //    else if (x < y)
-            //    {
-            //        Console.WriteLine(x + "は" + y + "より小さい");
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine(x + "と" + y + "は等しい");
-            //    }
-            //    return;
+            //    Console.Write($"{i + 1}個目の数値" + $"を入力してください: ");
+            //    scores[i] = int.Parse(Console.ReadLine());
             //}
+            //int[] evens = scores.Where(n => n % 2 == 0).ToArray();
+            //int[] odds = scores.Where(n => n % 2 != 0).ToArray();
 
-            //public static void Mondai2_3_3(int x)
+            //Console.WriteLine("偶数: " + string.Join(", ", evens));
+            //Console.WriteLine("奇数: " + string.Join(", ", odds));
+
+            //    int [,]kuku = new int[9, 9];
+
+            //// 配列 kuku に値を代入する
+
+            //for (int i = 0; i < 9; i++)
             //{
-            //    if (x % 2 == 0)
+            //    for (int j = 0; j < 9; j++)
             //    {
-            //        Console.WriteLine(x + "は偶数です");
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine(x+"は奇数です");
-            //    }
-            //return;
-            //}
+            //        kuku[i, j] = (i + 1) * (j + 1);
+            //        Console.Write(" {0,2}", kuku[i, j]);
 
-            //public static void Mondai2_3_4(int x)
+
+            //    }
+            //        Console.WriteLine();
+            //}   
+
+            //int[] scores = new int[10];
+            //for (int i = 0; i < scores.Length; i++)
             //{
-            //    if (x >= 80)
-            //    {
-            //        Console.WriteLine("合格");
-            //        Console.WriteLine("たいへんよくできました");
-            //        Console.WriteLine("優");
-            //    }
-            //    else if (x >=70)
-            //    {
-            //        Console.WriteLine("合格");
-            //        Console.WriteLine("よくできました");
-            //        Console.WriteLine("良");
-            //    }
-            //    else if (x >=60)
-            //    {
-            //        Console.WriteLine("合格");
-            //        Console.WriteLine("よくできました");
-            //        Console.WriteLine("可");
-            //    }
-
-            //    else
-            //    {
-            //        Console.WriteLine("不合格");
-            //        Console.WriteLine("ざんねんでした");
-            //        Console.WriteLine("不可");
-            //    }       
+            //    Console.Write($"{i + 1}個目の数値" + $"を入力してください: ");
+            //    scores[i] = int.Parse(Console.ReadLine());
             //}
+            //Array.Sort(scores);
+            //Console.WriteLine("降順: " + string.Join(", ", scores));
 
-            //public static void Mondai2_3_5(int x, int y)
-            //{
-            //    if (x < y && x % 2 == 0 && y % 2 == 0) {
-            //        Console.WriteLine("xはyより小さく、かつ、xとyは共に偶数である。");
-            //    }
-            //    if (x==y && x<0 && y<0) {  
-            //        Console.WriteLine("xとyは等しく、かつ、負の数である。");
-            //    }
-            //    if (x < y || x % 2 == 0) {
-            //        Console.WriteLine("xはyより小さい、または、xは偶数である。");
-            //    }
-            //    if (x<=10 || x>=100 && x>=10 && y<=100) {
-            //        Console.WriteLine("xは10以下または100以上で、かつ、yは10以上かつ100以下である。");
-            //    }
-            //    if (!(x < 0 && y < 0)) {
-            //        Console.WriteLine("xもyも負の数である、ではない。");
-            //    }
-            //}
         }
+
+        //public static int Mondai2_2_3(int x, int y)
+        //{
+        //    return((x+y)/2);
+        //}
+        //public static int Mondai2_2_4(int x)
+
+        //{
+        //    return (x * 365);
+        //}
+
+        //public static void Mondai2_3_2(int x, int y)
+        //{
+        //    if (x > y)
+        //    {
+        //        Console.WriteLine(x + "は" + y + "より大きい");
+        //    }
+        //    else if (x < y)
+        //    {
+        //        Console.WriteLine(x + "は" + y + "より小さい");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine(x + "と" + y + "は等しい");
+        //    }
+        //    return;
+        //}
+
+        //public static void Mondai2_3_3(int x)
+        //{
+        //    if (x % 2 == 0)
+        //    {
+        //        Console.WriteLine(x + "は偶数です");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine(x+"は奇数です");
+        //    }
+        //return;
+        //}
+
+        //public static void Mondai2_3_4(int x)
+        //{
+        //    if (x >= 80)
+        //    {
+        //        Console.WriteLine("合格");
+        //        Console.WriteLine("たいへんよくできました");
+        //        Console.WriteLine("優");
+        //    }
+        //    else if (x >=70)
+        //    {
+        //        Console.WriteLine("合格");
+        //        Console.WriteLine("よくできました");
+        //        Console.WriteLine("良");
+        //    }
+        //    else if (x >=60)
+        //    {
+        //        Console.WriteLine("合格");
+        //        Console.WriteLine("よくできました");
+        //        Console.WriteLine("可");
+        //    }
+
+        //    else
+        //    {
+        //        Console.WriteLine("不合格");
+        //        Console.WriteLine("ざんねんでした");
+        //        Console.WriteLine("不可");
+        //    }       
+        //}
+
+        //public static void Mondai2_3_5(int x, int y)
+        //{
+        //    if (x < y && x % 2 == 0 && y % 2 == 0) {
+        //        Console.WriteLine("xはyより小さく、かつ、xとyは共に偶数である。");
+        //    }
+        //    if (x==y && x<0 && y<0) {  
+        //        Console.WriteLine("xとyは等しく、かつ、負の数である。");
+        //    }
+        //    if (x < y || x % 2 == 0) {
+        //        Console.WriteLine("xはyより小さい、または、xは偶数である。");
+        //    }
+        //    if (x<=10 || x>=100 && x>=10 && y<=100) {
+        //        Console.WriteLine("xは10以下または100以上で、かつ、yは10以上かつ100以下である。");
+        //    }
+        //    if (!(x < 0 && y < 0)) {
+        //        Console.WriteLine("xもyも負の数である、ではない。");
+        //    }
+        //}
     }
+    
 }

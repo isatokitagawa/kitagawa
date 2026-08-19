@@ -12,3 +12,4 @@ C:\Users\i-kitagawa\source\repos\20260817\20260817\obj\Debug\net10.0\refint\2026
 C:\Users\i-kitagawa\source\repos\20260817\20260817\obj\Debug\net10.0\20260817.pdb
 C:\Users\i-kitagawa\source\repos\20260817\20260817\obj\Debug\net10.0\20260817.genruntimeconfig.cache
 C:\Users\i-kitagawa\source\repos\20260817\20260817\obj\Debug\net10.0\ref\20260817.dll
+C:\Users\i-kitagawa\source\repos\20260817\20260817\obj\Debug\net10.0\20260817.sourcelink.json
